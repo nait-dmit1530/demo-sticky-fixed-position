@@ -7,3 +7,33 @@ section {
     padding: 1rem;
 }
 /* developer styles go here */
+
+h2 {
+    background-color: tomato;
+    padding: 1rem 0.5rem;
+    color: white;
+    margin-bottom: 1.5rem;
+
+    position: sticky;
+    top: 0;
+    /* IMPORTANT!! postion:sticky only works if there are direct siblings
+        of the element. 
+        Is a hybrid of position relative & fixed */
+}
+
+h3 {
+    position: sticky;
+    /* makes the h3 element stick at a certain point */
+    top: 104px;
+    /* ensures the h3 element becomes sticky BELOW the h2 element */
+    background-color: tomato;
+    /* Assigns a background colour so we don't see the text piling up */
+}
+
+/* THINK: BACK TO TOP button OR a CONTACT US button */
+.snowflake {
+    position: fixed;
+    bottom: 10%;
+    right: 5%;
+    z-index: 1;
+}
