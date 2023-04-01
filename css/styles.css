@@ -36,4 +36,7 @@ h3 {
     bottom: 10%;
     right: 5%;
     z-index: 1;
+    /* Fixed position elements are similar to position:absolute elements
+        the space the element took in the flow is gone
+    */
 }
